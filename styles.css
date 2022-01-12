@@ -7,6 +7,61 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
   font-family: "PT Serif", serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.header {
+}
+
+.whoweare {
+  font-family: "Poppins", sans-serif;
+}
+
+.who {
+  font-weight: 600;
+}
+
+.weare {
+  font-weight: 400;
+}
+
+.grid {
+  margin: 5rem auto;
+  width: 90%;
+  display: grid;
+  /* grid-auto-flow: column; */
+  grid-template-columns: 33% 33% 33% ;
+  gap: 1em;
+}
+
+.card {
+margin-left: 1.5rem;
+}
+
+.grid img {
+  /* position: absolute; */
+  width: 208px;
+  height: 296.5px;
+}
+
+.title {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  transform: rotate(90deg);
+  text-transform: uppercase;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
