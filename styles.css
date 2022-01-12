@@ -88,7 +88,6 @@ footer {
   text-align: center;
   padding-top: 100px;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
   color: #bdbdbd;
   font-weight: 500;
 }
@@ -126,5 +125,9 @@ footer span {
 
   .card:nth-last-child(odd) {
     transform: translateY(100px);
+  }
+
+  footer {
+    margin-right: 60px;
   }
 }
