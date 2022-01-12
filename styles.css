@@ -44,8 +44,8 @@ body {
 
 .grid {
   display: grid;
-  grid-column: span 3;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-column: span 3; */
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card {
