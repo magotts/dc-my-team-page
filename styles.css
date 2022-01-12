@@ -12,6 +12,7 @@ body {
 
 .container {
   margin: 0 auto;
+  width: 1440px;
 }
 
 .top {
@@ -48,6 +49,9 @@ body {
 margin-left: 1.5rem;
 }
 
+.down {
+  transform: translateY(25%);
+}
 .grid img {
   /* position: absolute; */
   width: 208px;
@@ -64,4 +68,11 @@ margin-left: 1.5rem;
 .name {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+}
+
+@media (max-width: 375px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 33% 33%;
+  }
 }
