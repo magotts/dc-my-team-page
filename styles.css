@@ -100,6 +100,7 @@ footer span {
 @media (max-width: 640px) {
   .top {
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .grid {
